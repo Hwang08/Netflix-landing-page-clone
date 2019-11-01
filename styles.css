@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', 'helvetica','serif';
+}
+
+header{
+    background: linear-gradient(rgba(0,0,0,1),rgba(255,255,255,0));
+    color: whitesmoke;
+    /* Puts an extra space in since contents are being floated */
+    overflow: auto;
+    padding: 10px 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.logo #logo-a{
+    float: left;
+    display: inline-block;
+    color: red;
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 1.8em;
+    font-weight: bolder;
+}
+
+.logo #netflix-img{
+    width: 30px;
+}
+
+.leftMenu{
+    float: left;
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Aligns li links into a horizontal line */
+ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.rightMenu{
+    float: right;
+    margin-right: 30px;
+    display: inline-block;
+    color: black;
+}
+
+.rightMenu ul{
+    list-style: none;
+    padding-right: 20px;
+    margin: 0;
+}
+
+#robot-img{
+    width: 40px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:visited {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+header a{
+    transition: .5s;
+}
+
+header a:hover{
+    color: rgba(255,255,255,.6);
+}
+
+#home-a{
+    font-weight: bold;
+}
+
+/* Aligns li links into a horizontal line */
+.rightMenu ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+#largeImage{
+    margin: 0;
+    padding: 300px 25px 200px;
+    /* background: url(avengers-infinitywar-banner.jpg) no-repeat left center fixed; */
+    background: url(avengers-infinitywar-banner.jpg) no-repeat left center;
+    background-size: cover;
+    position: relative;
+}
+
+#description-box{
+    color: whitesmoke;
+    width: 50%;
+    margin: 0;
+}
+
+#description-box h1{
+    font-size: 5em;
+    font-weight: 700px;
+    margin: 0 0 10px 0;
+}
+#description-box h3{
+    font-size: 2em;
+    margin: 0;
+}
+#description-box h4{
+    font-size: 1.3em;
+    font-weight: 10px;
+    margin: 0;
+}
+#description-box p{
+    font-size: 1.3em;
+    font-weight: 10px;
+    margin: 0;
+    width: 60%;
+    margin: 25px 0 50px 0;
+}
+
+#netflix-img{
+    width: 30px;
+    height: auto;
+}
+
+button{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: rgba(0,0,0,.5);
+    border-style: none;
+    border-radius: 4.5px;
+    padding: 10px;
+    height: 70px;
+    width: 250px;
+}
+
+button:hover{
+    color: #000;
+    background-color: rgba(255,255,255,.9);
+}
+button:hover a{
+    color: #000;
+}
+
+i {
+    margin-right: 10px;
+}
+
+#videoSection{
+    width: 100%;
+    background: rgb(34, 34, 34);
+}
+
+#videoSection h3{
+    margin: 0 0 0 40px;
+    padding: 20px 0 20px 0;
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+.row{
+    font-size: 0;
+    width: 100%;
+}
+
+.videoBoxes{
+    display: inline-block;
+    background: whitesmoke;
+    width: 15%;
+    height: 150px;
+    font-size: 16px;
+    margin: 0 2.5% 2.5% 2.5%;
+}
+
+
+@media screen and (max-width: 600px){
+    .videoBoxes{
+        width: 95%;
+        margin: 2.5%;
+    }
+}
