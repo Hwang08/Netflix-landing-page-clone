@@ -102,7 +102,7 @@ header a:hover{
     margin: 0;
     padding: 300px 25px 200px;
     /* background: url(avengers-infinitywar-banner.jpg) no-repeat left center fixed; */
-    background: url(avengers-infinitywar-banner.jpg) no-repeat left center;
+    background: url(images/avengers-infinitywar-banner.jpg) no-repeat left center;
     background-size: cover;
     position: relative;
 }
@@ -111,6 +111,22 @@ header a:hover{
     color: whitesmoke;
     width: 50%;
     margin: 0;
+}
+
+@media screen and (max-width: 1570px){
+    #description-box{
+        color: whitesmoke;
+        width: 60%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1326px){
+    #description-box{
+        color: whitesmoke;
+        width: 70%;
+        margin: 0;
+    }
 }
 
 #description-box h1{
@@ -191,9 +207,9 @@ i {
 }
 
 
-@media screen and (max-width: 600px){
+/* @media screen and (max-width: 600px){
     .videoBoxes{
-        width: 95%;
-        margin: 2.5%;
+        width: 10%;
+        margin: 0%;
     }
-}
+} */
