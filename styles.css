@@ -82,14 +82,25 @@ a:visited {
 
 header a{
     transition: .5s;
+    color: whitesmoke;
+    text-decoration: none;
 }
 
 header a:hover{
     color: rgba(255,255,255,.6);
+    text-decoration: none;
 }
 
 #home-a{
     font-weight: bold;
+}
+
+button a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+button a:hover{
+    text-decoration: none;
 }
 
 /* Aligns li links into a horizontal line */
@@ -169,7 +180,6 @@ button{
 }
 
 button:hover{
-    color: #000;
     background-color: rgba(255,255,255,.9);
 }
 button:hover a{
